@@ -1,0 +1,217 @@
+.salamtext {
+
+
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 340px;
+    text-shadow:
+    0 0 5px white,
+    0 0 10px white,
+    0 0 20px white,
+    0 0 40px rgb(255, 255, 255),
+    0 0 80px rgb(255, 255, 255),
+    0 0 90px rgb(255, 255, 255);
+    font-size: 300%;
+}
+
+
+
+
+
+
+.abouttext {
+
+
+
+  color: white;
+  font-family: 'Freshman' , sans-serif;
+  position: relative;
+  left: 800px;
+  font-size: 50px;
+}
+
+
+.card {
+  width: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  background-color: #1e1e1e;
+  color: white;
+  font-family: sans-serif;
+  margin: 20px auto;
+  position: relative;
+  top: 700px;
+  left: -550px;
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-button {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #00ffff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+.card-ikinci {
+  width: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  background-color: #1e1e1e;
+  color: white;
+  font-family: sans-serif;
+  margin: 20px auto;
+  position: relative;
+  top: 275px;
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-button {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #00ffff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+
+
+.card-ucuncu {
+  width: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  background-color: #1e1e1e;
+  color: white;
+  font-family: sans-serif;
+  margin: 20px auto;
+  position: relative;
+  top: -150px;
+  left: 500px;
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-button {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #00ffff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+
+
+.btn-donate {
+  --clr-font-main: hsla(0 0% 20% / 100);
+  --btn-bg-1: hsla(194 100% 69% / 1);
+  --btn-bg-2: hsla(217 100% 56% / 1);
+  --btn-bg-color: hsla(360 100% 100% / 1);
+  --radii: 0.5em;
+  cursor: pointer;
+  padding: 0.9em 1.4em;
+  min-width: 120px;
+  min-height: 44px;
+  font-size: var(--size, 1rem);
+  font-weight: 500;
+  transition: 0.8s;
+  background-size: 280% auto;
+  background-image: linear-gradient(
+    325deg,
+    var(--btn-bg-2) 0%,
+    var(--btn-bg-1) 55%,
+    var(--btn-bg-2) 90%
+  );
+  border: none;
+  border-radius: var(--radii);
+  color: var(--btn-bg-color);
+  box-shadow:
+    0px 0px 20px rgba(71, 184, 255, 0.5),
+    0px 5px 5px -1px rgba(58, 125, 233, 0.25),
+    inset 4px 4px 8px rgba(175, 230, 255, 0.5),
+    inset -4px -4px 8px rgba(19, 95, 216, 0.35);
+    position: relative;
+    top: 370px;
+    left: 680px;
+}
+
+.btn-donate:hover {
+  background-position: right top;
+}
+
+.btn-donate:is(:focus, :focus-visible, :active) {
+  outline: none;
+  box-shadow:
+    0 0 0 3px var(--btn-bg-color),
+    0 0 0 6px var(--btn-bg-2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn-donate {
+    transition: linear;
+  }
+}
+
+
+
+
+.viqidi-sekil {
+
+
+  position: relative;
+  left: 200px;
+  top: -50px;
+}
+
+
+
+.hakkinda-text {
+
+  color: white;
+  position: relative;
+  top: -400px;
+  left: 750px;
+}
+
+
